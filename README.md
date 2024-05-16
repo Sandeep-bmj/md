@@ -1,7 +1,8 @@
 # BMJ International Forum
 ### Key Details:
-**Prod GitHub Repository**:   https://github.com/BMJ-Ltd/wp-internationalforum.bmj.com .
-**Stg GitHub Repository**: https://github.com/BMJ-Ltd/wp-stg-internationalforum.bmj.com .
+**Prod GitHub Repository**:   https://github.com/BMJ-Ltd/wp-internationalforum.bmj.com 
+
+**Stg GitHub Repository**: https://github.com/BMJ-Ltd/wp-stg-internationalforum.bmj.com 
 
 **Staging Site**: https://stg-internationalforum.bmj.com  
 **Live Site**: https://internationalforum.bmj.com/
