@@ -79,6 +79,10 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 - Presents the real-time status of all Docker containers.
   <img width="897" alt="image" src="https://github.com/user-attachments/assets/e47b67ef-cfd4-4013-b396-9d1dfc55d11c">
 
+<img width="182" alt="image" src="https://github.com/user-attachments/assets/5bee96b1-ca19-4471-ba64-c74e439d86dd">
+<img width="176" alt="image" src="https://github.com/user-attachments/assets/52ea63ae-c6f1-4dd7-8c33-c161f27e5aed">
+
+
 ###  Change URL in Database
 You can access your MySQL database through phpMyAdmin and Run the following SQL queries:
 ```
