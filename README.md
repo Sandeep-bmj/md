@@ -1,40 +1,78 @@
-# BMJ International Forum
-### Key Details:
-**Prod GitHub Repository**:   https://github.com/BMJ-Ltd/wp-internationalforum.bmj.com 
+# Docker-Compose Setup Menu
 
-**Stg GitHub Repository**: https://github.com/BMJ-Ltd/wp-stg-internationalforum.bmj.com 
+<img width="866" alt="image" src="https://github.com/user-attachments/assets/7e400be4-3057-48c0-ba5f-c2fb262042ce">
 
-**Staging Site**: https://stg-internationalforum.bmj.com  
+This document provides an overview of the Docker-Compose Setup Menu, which allows users to manage their Docker containers and related tasks via a simple text-based interface.
+---
+## Menu Options
 
-**Live Site**: https://internationalforum.bmj.com/
+1. **Option A - Run the Lunch Environment**
+   - **Description:** Starts the Docker containers for the lunch environment.
+   - **Usage:** Initializes all related containers.
 
-## BMJ International Forum Production
-This repository, wp-internationalforum.bmj.com, exclusively holds live production data for our internationalforum.bmj.com website. It's important to note that this is a special scenario where we maintain separate data for both staging and live environments.
+2. **Option B - Display All Container Statuses**
+   - **Description:** Displays the current status of all Docker containers.
+   - **Usage:** Get a quick overview of the state of your containers.
 
-## How should I begin working in this repository?
-If you're starting any work in this repository, it's best to first clone it locally, then switch to the developer branch to make your changes. After modifying any files, add them, commit the changes, and push them to the repository. Once you push the code into the repository, GHA will run automatically, and you can see the changes reflected on the site. This is the current workflow that we are using.
+3. **Option C - Stop the Lunch Environment**
+   - **Description:** Stops all Docker containers related to the lunch environment.
+   - **Usage:** Safely shut down the environment when no longer needed.
 
-## Below are some useful commands for your reference:
-### Clone the repository to your local system.
-``` git clone <repo url> ```
-### Change directory and navigate inside.
-``` cd <diretory-name>```
-### Check all branches inside the repository for confirmation.
-``` git brach -a ```
-### Switch to the branch according to your task.
-``` git checkout "<your-branch-name>" ```
-### Once your changes are done, you can use the 'add' command. where dot (.) represents the current directory.
-``` git add . ```
-### Commit your changes with a proper commit message, according to your task.
-``` git commit -am "<your-commit-message>" ```
+4. **Option D - Run Backup of the MySQL Database**
+   - **Description:** Creates a backup of the MySQL database.
+   - **Usage:** Regularly back up your MySQL database to prevent data loss.
 
-### Push your code or files to the repository.
-```git push``` or ```git push --set-upstream origin <your-branch-name> ```
+5. **Option E - Run Backup of the WordPress Files**
+   - **Description:** Creates a backup of the WordPress files.
+   - **Usage:** Ensure your WordPress site can be restored in case of issues.
 
-### Navigate to the repository's page and select the 'Actions' tab. Here, you can access your CI/CD pipeline's deployment logs. A green checkmark indicates a successful CI/CD process.
+6. **Option F - Remove All Lunch Containers**
+   - **Description:** Removes all Docker containers associated with the lunch environment.
+   - **Usage:** Clean up and free resources.
+
+7. **Option G - List All SQL Files**
+   - **Description:** Displays a list of all SQL files available in the specified directory.
+   - **Usage:** Identify available SQL scripts for various tasks.
+
+8. **Option H - List All Backup Files**
+   - **Description:** Displays a list of all backup files available in the specified directory.
+   - **Usage:** Manage and restore backups.
+
+9. **Option I - Display Monitor Logs**
+   - **Description:** Shows logs from the monitoring system.
+   - **Usage:** View monitoring logs and troubleshoot any issues with your environment.
+
+10. **Option J - Exit Safely from This Setup**
+    - **Description:** Safely exits from the setup menu, ensuring necessary cleanup operations are performed.
+    - **Usage:** Exit the setup menu safely when done.
+
+11. **Option K - User Manual**
+    - **Description:** Provides additional help and information about the menu options and their usage.
+    - **Usage:** View detailed help and instructions for using the menu.
+
+12. **Option O - Open Web to Launch Site and Database**
+    - **Description:** Opens the web interface to launch the site and database.
+    - **Usage:** Access the site and database through the web interface for further interaction.
+
+13. **Option Q - Exit Normally**
+    - **Description:** Exits the setup menu immediately without performing additional operations.
+    - **Usage:** Quickly exit the setup menu.
+---
+## Usage
+
+The menu is displayed line by line in cyan color to enhance readability. Users are prompted to enter their choice from the available options.
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/dee388b4-0c15-4fef-b712-7600d07e6296">
+
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/8f06cded-60ce-43d2-bd27-12af8839fe03">
 
 
 
-
+###  Change URL in Database
+You can access your MySQL database through phpMyAdmin and Run the following SQL queries:
+```
+UPDATE wp_options SET option_value = 'http://localhost:9000/' WHERE option_name = 'home';
+UPDATE wp_options SET option_value = 'http://localhost:9000/' WHERE option_name = 'siteurl';
+```
 
 
