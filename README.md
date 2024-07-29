@@ -79,8 +79,8 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 - Presents the real-time status of all Docker containers.
   <img width="897" alt="image" src="https://github.com/user-attachments/assets/e47b67ef-cfd4-4013-b396-9d1dfc55d11c">
 
-<img width="182" alt="image" src="https://github.com/user-attachments/assets/5bee96b1-ca19-4471-ba64-c74e439d86dd">
-<img width="176" alt="image" src="https://github.com/user-attachments/assets/52ea63ae-c6f1-4dd7-8c33-c161f27e5aed">
+<img width="182" alt="image" src="https://github.com/user-attachments/assets/5bee96b1-ca19-4471-ba64-c74e439d86dd"><img width="182" alt="image" src="https://github.com/user-attachments/assets/40fd348d-b287-41e0-9d39-2ad0b9e1629c">
+
 
 
 ###  Change URL in Database
