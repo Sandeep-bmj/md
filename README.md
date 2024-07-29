@@ -64,6 +64,7 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 
 ### Enter this command to start the program.
 ``` sh main.sh ```
+
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/481522bf-a61d-4cee-975e-a11703c81e2d">
 
 <img width="911" alt="image" src="https://github.com/user-attachments/assets/8f06cded-60ce-43d2-bd27-12af8839fe03">
