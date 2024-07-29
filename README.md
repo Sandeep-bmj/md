@@ -86,6 +86,9 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 - Stops all Docker containers related to the lunch environment.
   <img width="950" alt="image" src="https://github.com/user-attachments/assets/fb14bef3-3c8d-43f6-bc3d-2ab76a9949a3">
 
+-**Press Option 6**
+- Removes all Docker containers associated with the lunch environment
+  <img width="947" alt="image" src="https://github.com/user-attachments/assets/aace85ca-92de-4136-ab91-aad4874c7439">
 
 
 ###  Change URL in Database
