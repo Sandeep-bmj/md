@@ -75,6 +75,9 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 - Check the running status of all containers after opening Docker Desktop.
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/cc27e954-f2a3-44a7-a2d6-35bbed775f71">
 
+- **Press Option 2**
+- Presents the real-time status of all Docker containers.
+  <img width="897" alt="image" src="https://github.com/user-attachments/assets/e47b67ef-cfd4-4013-b396-9d1dfc55d11c">
 
 ###  Change URL in Database
 You can access your MySQL database through phpMyAdmin and Run the following SQL queries:
