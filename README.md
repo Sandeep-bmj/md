@@ -67,8 +67,12 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/481522bf-a61d-4cee-975e-a11703c81e2d">
 
+- **For example, press option 1.**
+- Starts the Docker containers for the lunch environment.
+
 <img width="911" alt="image" src="https://github.com/user-attachments/assets/8f06cded-60ce-43d2-bd27-12af8839fe03">
 
+- Check the running status of all containers after opening Docker Desktop.
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/cc27e954-f2a3-44a7-a2d6-35bbed775f71">
 
 
