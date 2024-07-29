@@ -82,6 +82,10 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 <img width="182" alt="image" src="https://github.com/user-attachments/assets/5bee96b1-ca19-4471-ba64-c74e439d86dd">
 <img width="182" alt="image" src="https://github.com/user-attachments/assets/40fd348d-b287-41e0-9d39-2ad0b9e1629c">
 
+- **Press  Option 3**
+- Stops all Docker containers related to the lunch environment.
+  <img width="950" alt="image" src="https://github.com/user-attachments/assets/fb14bef3-3c8d-43f6-bc3d-2ab76a9949a3">
+
 
 
 ###  Change URL in Database
