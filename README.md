@@ -90,6 +90,15 @@ The menu is displayed line by line in cyan color to enhance readability. Users a
 - Removes all Docker containers associated with the lunch environment
   <img width="947" alt="image" src="https://github.com/user-attachments/assets/aace85ca-92de-4136-ab91-aad4874c7439">
 
+- **Press Option 13**
+- Exits the setup menu immediately without performing additional operations.
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/ec9ebdcc-a025-4569-8c0d-724a3457ae00">
+
+- **Press Option 12**
+- Safely exits the setup menu, ensuring necessary cleanup operations are performed and creating backups of WordPress files and the SQL database.
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/3b8c8f38-7718-4795-90d5-9ecb23901159">
+
+
 ## You can utilize the options based on your specific requirements.
 
 ###  Change URL in Database
