@@ -108,4 +108,16 @@ UPDATE wp_options SET option_value = 'http://localhost:9000/' WHERE option_name 
 UPDATE wp_options SET option_value = 'http://localhost:9000/' WHERE option_name = 'siteurl';
 ```
 
+- **Press Option 7**
+- Opens the web interface to launch the site and database.
+  <img width="674" alt="image" src="https://github.com/user-attachments/assets/dfdd0049-8498-4a2d-b591-4c6d86786759">
+
+- **Launch the WordPress site and phpMyAdmin page in Microsoft Edge**
+- **WordPress Site**
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/01c67896-ba81-4586-8753-d338a60b1f02">
+
+- **PhpMyAdmin Page**
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/46cc6162-5640-450f-bbd0-bf2ce9fe3cd1">
+      
+
 
