@@ -115,9 +115,12 @@ UPDATE wp_options SET option_value = 'http://localhost:9000/' WHERE option_name 
 - **Launch the WordPress site and phpMyAdmin page in Microsoft Edge**
 - **WordPress Site**
   <img width="958" alt="image" src="https://github.com/user-attachments/assets/01c67896-ba81-4586-8753-d338a60b1f02">
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/e82a36fe-158f-40c2-881c-dc2f9ecf28ee">
 
 - **PhpMyAdmin Page**
   <img width="958" alt="image" src="https://github.com/user-attachments/assets/46cc6162-5640-450f-bbd0-bf2ce9fe3cd1">
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/5b5ae6cf-d2dc-4bb5-bafe-c47071c51a16">
+
       
 
 
