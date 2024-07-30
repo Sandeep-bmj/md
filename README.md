@@ -1,9 +1,9 @@
 # Docker-Compose Setup Menu
 
 <img width="866" alt="image" src="https://github.com/user-attachments/assets/7e400be4-3057-48c0-ba5f-c2fb262042ce">
-<hr style="border: 2px solid red; margin-top: 20px; margin-bottom: 20px;">
 This document provides an overview of the Docker-Compose Setup Menu, which allows users to manage their Docker containers and related tasks via a simple text-based interface.
-<hr style="border: 2px solid red; margin-top: 20px; margin-bottom: 20px;">
+$${\color{red}Sandeep}$$
+
 ---
 ## Menu Options
 
